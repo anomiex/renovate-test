@@ -1,7 +1,7 @@
 {
     "require-dev": {
         "phpunit/phpunit": "5.7.* || 6.5.* || 7.5.*",
-        "johnkary/phpunit-speedtrap": "^3.0.0 || ^2.0.0 || ^1.1.0",
+        "johnkary/phpunit-speedtrap": "^3.0.0 || ^2.0.0 || ^1.1.0 || ^4.0.0",
         "automattic/jetpack-changelogger": "^2.0"
     }
 }
