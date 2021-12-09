@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "@storybook/core-server": "6.4.4"
+        "@storybook/core-server": "6.4.9"
     },
     "pnpm": {
         "overrides": {
