@@ -1,6 +1,6 @@
 {
     "name": "monorepo/a",
     "require": {
-        "composer/semver": "3.2.6"
+        "composer/semver": "3.2.9"
     }
 }

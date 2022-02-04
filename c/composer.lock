@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c55a7d3bcd9d49688a196dfd1a708e2",
+    "content-hash": "f0d5876677537a66a0dfd3d69a28a230",
     "packages": [
         {
             "name": "composer/semver",
-            "version": "3.2.6",
+            "version": "3.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "83e511e247de329283478496f7a1e114c9517506"
+                "reference": "a951f614bd64dcd26137bc9b7b2637ddcfc57649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/83e511e247de329283478496f7a1e114c9517506",
-                "reference": "83e511e247de329283478496f7a1e114c9517506",
+                "url": "https://api.github.com/repos/composer/semver/zipball/a951f614bd64dcd26137bc9b7b2637ddcfc57649",
+                "reference": "a951f614bd64dcd26137bc9b7b2637ddcfc57649",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^0.12.54",
+                "phpstan/phpstan": "^1.4",
                 "symfony/phpunit-bridge": "^4.2 || ^5"
             },
             "type": "library",
@@ -69,7 +69,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.2.6"
+                "source": "https://github.com/composer/semver/tree/3.2.9"
             },
             "funding": [
                 {
@@ -85,7 +85,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-25T11:34:17+00:00"
+            "time": "2022-02-04T13:58:43+00:00"
         },
         {
             "name": "monorepo/a",
@@ -93,10 +93,10 @@
             "dist": {
                 "type": "path",
                 "url": "../a",
-                "reference": "0aa4a5dae0a3408a05be61bc8431f610067fdb08"
+                "reference": "024f2852bc571cf7f4a7dfd0e4e7b5b8b5d3d64d"
             },
             "require": {
-                "composer/semver": "3.2.6"
+                "composer/semver": "3.2.9"
             },
             "type": "library",
             "transport-options": {
@@ -109,10 +109,10 @@
             "dist": {
                 "type": "path",
                 "url": "../b",
-                "reference": "187d5b5777f98ac02c83baf10b1ffc4e026f2d56"
+                "reference": "6ce3daf396b8dd9bcb7a02fc2973e08a613c8c30"
             },
             "require": {
-                "composer/semver": "3.2.6",
+                "composer/semver": "3.2.9",
                 "monorepo/a": "@dev"
             },
             "type": "library",
@@ -131,5 +131,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
