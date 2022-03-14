@@ -1,5 +1,14 @@
 {
 	"extends": [ "config:base" ],
 	"timezone": "UTC",
-	"dependencyDashboard": true
+	"dependencyDashboard": true,
+        "packageRules": [
+            {
+                "groupName": "chalk group",
+                "separateMajorMinor": false,
+                "matchPackageNames": [
+                    "chalk"
+                ]
+            }
+        ]
 }
