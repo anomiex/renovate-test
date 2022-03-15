@@ -9,9 +9,6 @@ module.exports = {
 	requireConfig: false,
 
 	// This is the renovate configuration.
-	extends: [ 'config:base' ],
-	timezone: 'UTC',
-	dependencyDashboard: true,
 	packageRules: [
 		{
 			extends: [ 'monorepo:wordpress' ],
