@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "@wordpress/i18n": "4.4.0",
+        "@wordpress/i18n": "4.4.1",
         "@wordpress/icons": "7.0.1"
     }
 }
