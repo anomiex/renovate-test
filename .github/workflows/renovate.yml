@@ -27,11 +27,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: renovatebot/github-action@v39.0.1
+      - uses: renovatebot/github-action@v39.0.5
         with:
           configurationFile: .github/renovate-config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
-          renovate-version: 36.57.4
+          renovate-version: 37.18.4
         env:
           LOG_LEVEL: ${{ github.event.inputs.logLevel || 'debug' }}
           RENOVATE_DRY_RUN: ${{ github.event.inputs.dryRun == 'no' && 'null' || github.event.inputs.dryRun || 'null' }}
