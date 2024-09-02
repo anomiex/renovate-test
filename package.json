@@ -1,7 +1,7 @@
 {
     "dependencies": {
         "ansi-styles": "^4.0.0",
-        "chalk": "4.0.0"
+        "chalk": "4.1.2"
     },
     "engines": {
         "pnpm": "^9.0.0"
