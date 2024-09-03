@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "ansi-styles": "^4.0.0",
+        "noop6": "^1.0.0",
         "chalk": "4.0.0"
     },
     "engines": {
