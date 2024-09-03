@@ -1,6 +1,7 @@
 {
 	extends: [ 'config:recommended' ],
 	postUpdateOptions: [ 'pnpmDedupe' ],
+	prConcurrentLimit: 3,
 	lockFileMaintenance: {
 		enabled: true,
 		schedule: [ 'before 3:00 am on Monday on the 7th through 13th day of the month' ]
