@@ -1,8 +1,8 @@
 {
 	extends: [ 'config:recommended' ],
-	postUpdateOptions: [ 'pnpmDedupe' ]
+	postUpdateOptions: [ 'pnpmDedupe' ],
 	lockFileMaintenance: {
 		enabled: true,
-		schedule: [ 'before 3:00 am on Monday on the 7th through 13th day of the month' ],
-	},
+		schedule: [ 'before 3:00 am on Monday on the 7th through 13th day of the month' ]
+	}
 }
