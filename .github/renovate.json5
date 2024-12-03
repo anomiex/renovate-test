@@ -1,6 +1,4 @@
 {
-	extends: [ 'config:recommended' ],
-	postUpdateOptions: [ 'pnpmDedupe' ],
 	packageRules: [
 		{
 			groupName: 'Group',
