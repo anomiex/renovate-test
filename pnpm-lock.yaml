@@ -13,7 +13,7 @@ importers:
         version: 4.0.0
       noop6:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.9
 
 packages:
 
@@ -36,8 +36,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  noop6@1.0.0:
-    resolution: {integrity: sha512-bSeMsAGWVq68QPvsTQR+Y87Bj7vQooQnjcuhU/RyRvkClvU4hoKAqSy1T/MKqd9b9rcQT0X14CSKaRrX6dOh2g==}
+  noop6@1.0.9:
+    resolution: {integrity: sha512-DB3Hwyd89dPr5HqEPg3YHjzvwh/mCqizC1zZ8vyofqc+TQRyPDnT4wgXXbLGF4z9YAzwwTLi8pNLhGqcbSjgkA==}
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -62,7 +62,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  noop6@1.0.0: {}
+  noop6@1.0.9: {}
 
   supports-color@7.2.0:
     dependencies:
